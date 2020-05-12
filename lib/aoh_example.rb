@@ -16,9 +16,9 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   literal_aoh = [
-    {:name => "Don Gately", :occupation => "Live-in Staff"}
-    
-  }]
+    {:name => "Don Gately", :occupation => "Live-in Staff"},
+    {:name => "Joelle van Dyne", :occupation => "Live-in Staff"},
+  ]
 end
 
 def aoh_lookup(aoh, row, key)
